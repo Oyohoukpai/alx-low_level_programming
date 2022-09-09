@@ -2,12 +2,8 @@
 
 /**
  *
- *  * main - main block
- *
- *   * Return: 0
- *
- *
- *
+ * main - main block
+ * Return: 0 MADE ME do it 
  */
 
 int main(void)
