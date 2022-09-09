@@ -1,19 +1,10 @@
 #include <stdio.h>
-
 /**
- *
- * main - main block
- * Return: 0 MADE ME do it 
+ * main - Betty
+ * Return: 0 mad me do it 
  */
-
 int main(void)
-
 {
-
 	puts("\"Programming is like building a multilingual puzzle");
-
 	return (0);
-
 }
-
-
