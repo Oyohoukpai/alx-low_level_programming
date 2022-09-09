@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
  *
- * main: Entry point
+ * main - main block
  * Description: use printf
  * Return: Aiways 0 (Success)
  *
