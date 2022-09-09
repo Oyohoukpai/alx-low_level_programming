@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - entry point
+ * main - Entry point
  * Description: prints if a number is positive or nagetive.
  * Return: 0 made me do
  */
@@ -14,7 +14,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%d is positive\n", n)
+		printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	{
@@ -24,4 +24,5 @@ int main(void)
 	{
 		printf("%d is nagetive\n", n);
 	}
-	return (0)
+	return 0;
+}
