@@ -4,7 +4,7 @@
 /**
  * main - entry point
  * Description: prints if a number is positive or nagetive.
- * Return: 0
+ * Return: 0 made me do
  */
 int main(void)
 {
@@ -24,4 +24,4 @@ int main(void)
 	{
 		printf("%d is nagetive\n", n);
 	}
-	return (0);
+	return (0)
