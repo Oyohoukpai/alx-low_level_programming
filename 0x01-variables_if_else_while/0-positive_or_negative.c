@@ -20,7 +20,7 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	else if (n < 0)
+	else
 	{
 		printf("%d is nagetive\n", n);
 	}
