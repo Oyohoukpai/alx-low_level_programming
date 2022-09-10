@@ -2,13 +2,13 @@
 #include <stdio.h>
 /**
  * main - print the alphabet at reverse
- * Return: Always (Success)
+ * Return: 0 Always (Success)
  */
   int main(void)
   {
  int a;
 
-  for (a  = 'z'; a >= 'a'; a--)
+  for (a = 'z'; a >= 'a'; a--)
   {
   putchar(a);
   }
