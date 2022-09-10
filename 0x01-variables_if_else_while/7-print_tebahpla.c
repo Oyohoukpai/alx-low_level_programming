@@ -2,7 +2,8 @@
 #include <stdio.h>
 /**
  * main - print the alphabet at reverse
- * Return: 0 Always (Success)
+ * Description: print lowcase alphabet in reverse
+ * Return: Always 0 (Success)
  */
   int main(void)
 {
@@ -13,5 +14,5 @@
 		putchar(a);
 	}
 	putchar('\n');
-	return (o);
+	return (0);
 }
