@@ -1,24 +1,19 @@
 #include <stdio.h>
-#include <unistd.h>
 /**
- * main - Entry point
- * Description: Print base 16 numbers
- * Return: Always 0 (Success)
- */
+* main - Prints numbers between 0 to 9 and letters between a to f.
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-	char c;
-	char d = '0';
+int i;
 
-	while (d <= '9')
-	{
-		putchar(d);
-		d++;
-	}
-	for (c = 'a'; c <= 'f'; c++)
-	{
-		putchar(c);
-	}
-	putchar('\n');
-	reture (0);
+for (i = 48; i < 58; i++)
+{
+putchar(i);
+}
+for (i = 97; i < 103; i++)
+{
+putchar(i);									}
+putchar('\n');
+return (0);
 }
