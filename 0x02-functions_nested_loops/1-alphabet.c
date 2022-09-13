@@ -6,15 +6,16 @@
  */
 void print_alphabet(void);
 {
-int n;
+int n, co;
+co = 0
 
-n = 'a';
-
+while (co < 26)
 {
 for (n = 'a'; n <= 'z'; n++)
 {
 _putchar(n);
 }
+co++;
 _putchar('\n');
 return (0);
 }
