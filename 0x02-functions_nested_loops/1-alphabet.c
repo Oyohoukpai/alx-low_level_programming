@@ -6,17 +6,12 @@
  */
 void print_alphabet(void);
 {
-int n, co;
-co = 0
+int ny;
 
-while (co < 26)
+for (ny = 'a'; ny <= 'z'; ny++)
 {
-for (n = 'a'; n <= 'z'; n++)
-{
-_putchar(n);
+	_putchar(ny);
 }
-co++;
 _putchar('\n');
 return (0);
-}
 }
