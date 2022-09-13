@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * main - Entry point
- * Description: Write a function that prints the alphabet in lowercase.
- * Return: Always 0 (success)
+*Print_alphabet - Entry point
+ *Description: Program that prints the alphabet in lowercase
+ *follow with a new line
+ *Return: Exit int function with an int 0
  */
 void print_alphabet(void)
 {
@@ -13,5 +14,4 @@ for (ny = 'a'; ny <= 'z'; ny++)
 	_putchar(ny);
 }
 _putchar('\n');
-return (0);
 }
