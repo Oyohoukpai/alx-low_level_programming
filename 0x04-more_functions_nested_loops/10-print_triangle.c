@@ -1,8 +1,7 @@
-#include "main.h"
+#include"main.h"
 /**
- * print_triangle - check for a digit
- * @size: integer type
- * Return: void
+ * print_triangle - prints a triangle, followed by a new line
+ * @size:  is the size of the triangle
  */
 void print_triangle(int size)
 {
@@ -13,18 +12,18 @@ void print_triangle(int size)
 	if (size <= 0)
 	{
 		_putchar('\n');
-	}
-	else
+	} else
 	{
-		for (j = i; i <= size; i++)
+
+		for (i = 1; i <= size; i++)
 		{
-			for (j = size = i; j > 0; j++)
+			for (j = size - i ; j > 0; j--)
 			{
 				_putchar(' ');
 			}
-			for (k = 0; k < 1; k++)
+			for (k = 0; k < i; k++)
 			{
-				_putchar('k');
+				_putchar('#');
 			}
 			_putchar('\n');
 		}
