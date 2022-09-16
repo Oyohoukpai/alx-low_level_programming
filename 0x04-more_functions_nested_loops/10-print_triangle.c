@@ -26,7 +26,5 @@ void print_triangle(int size)
 		i++;
 	}
 	if (i == 1)
-	{
 		_putchar('\n');
-	}
 }

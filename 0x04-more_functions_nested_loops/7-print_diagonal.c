@@ -1,23 +1,22 @@
 #include "main.h"
 /**
- * print_diagonal - diagonal lines made of backslashes
- * @n: number of \ to be printed
- * Return: void
+ * print_diagonal - prints diagonal line n times.
+ * @n: times diagonal line is printed.
+ * Return: no return.
  */
-void print_diagonal(int n)
+ void print_diagonal(int n)
 {
-	int i = 0, ii;
-
-	while (ii < i)
-	{
-		_putchar(' ');
-		ii++;
-	}
-	_putchar('\\');
-	_putchar('\n');
-	i++;
+int i,j;
+	   
+for (i = 0; i < n; i++)
+{
+for (j = 0; j < i; j++)
+{
+_putchar(' ');
 }
-if (i == 0)
-{
-	_putchar('\n');
+_putchar(92);
+if (i < (n - 1))
+_putchar('\n');
+}
+_putchar('\n');
 }
