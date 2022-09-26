@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * print_diagsums - prints both sums of diagonal numbers in a 2d array
@@ -27,5 +26,5 @@ void print_diagsums(int *a, int size)
 		sum += *ptr;
 		ptr += size - 1;
 	}
-	printf("%\n", sum);
+	printf("%d\n", sum);
 }
