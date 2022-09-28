@@ -5,7 +5,7 @@
  * @a: input point.
  * Return: no return.
  */
-void print_chessboard(char(*a)[8])
+char print_chessboard(char(*a)[8])
 {
 	unsigned int i, m = 0;
 
