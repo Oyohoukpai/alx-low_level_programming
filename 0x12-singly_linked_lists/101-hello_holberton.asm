@@ -1,5 +1,3 @@
-// from the buttom prints... - Oyohoukpai
-
 SECTION .data
 msg:	db "Hello, Holberton", 0
 fmt:	db "%s", 10, 0
