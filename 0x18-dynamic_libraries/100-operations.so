@@ -1,0 +1,68 @@
+#include "main.h"
+/**
+ * add - adds two integers
+ * @a: integer to be added
+ * @b: integer to be added
+ * Returns: returns the addition of a and b
+ */
+int add(int a, int b)
+{
+	return (a + b);
+}
+
+
+/**
+ * div - divides two integers
+ * @a: integer to be divided
+ * @b: integer to be divided
+ * Returns: returns the division of a and b
+ */
+int div(int a, int b)
+{
+	return (a / b);
+}
+
+/**
+ * mod - gets the remainder of two integers
+ * @a: integer
+ * @b: integer
+ * Returns: returns the remainder of (a / b)
+ */
+int mod(int a, int b)
+{
+	return (a % b);
+}
+
+/**
+ * mul - multiplies two integers
+ * @a: integer to be multiplied
+ * @b: integer to be multiplied
+ * Returns: returns the multiplication of a and b
+ */
+int mul(int a, int b)
+{
+	return (a * b);
+}
+
+/**
+ * sub - subtracts two integers
+ * @a: integer to be subtracted
+ * @b: integer to be subtracted
+ * Returns: returns the subtraction of a and b
+ */
+int sub(int a, int b)
+{
+	return (a - b);
+}
+
+import random
+import ctypes
+
+cops = ctypes.CDLL('./100-operations.so')
+a = random.randint(-111, 111)
+b = random.randint(-111, 111)
+print("{} + {} = {}".format(a, b, cops.add(a, b)))
+print("{} - {} = {}".format(a, b, cops.sub(a, b)))
+print("{} x {} = {}".format(a, b, cops.mul(a, b)))
+print("{} / {} = {}".format(a, b, cops.div(a, b)))
+print("{} % {} = {}".format(a, b, cops.mod(a, b)))
